@@ -1,4 +1,23 @@
+# Ambiente virtual
 .venv/
-.flet/
+venv/
+env/
+
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Banco de dados local
+database/app.db
+
+# Editores e IDEs
+.vscode/
+.idea/
+*.swp
+
+# Sistema
+.DS_Store
+Thumbs.db
